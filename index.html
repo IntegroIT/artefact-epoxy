@@ -257,7 +257,7 @@
             </div>
             
             <div class="footer">
-                <p>© 2024 Все права защищены</p>
+                <!-- <p>© 2024 Все права защищены</p> -->
                 <div id="lastUpdate" class="last-update"></div>
             </div>
         </div>
@@ -408,10 +408,10 @@
             }
             
             // Показываем время последнего обновления
-            if (data.lastUpdate) {
-                const updateDate = new Date(data.lastUpdate);
-                document.getElementById('lastUpdate').textContent = `Обновлено: ${updateDate.toLocaleDateString()} ${updateDate.toLocaleTimeString()}`;
-            }
+            // if (data.lastUpdate) {
+            //     const updateDate = new Date(data.lastUpdate);
+            //     document.getElementById('lastUpdate').textContent = `Обновлено: ${updateDate.toLocaleDateString()} ${updateDate.toLocaleTimeString()}`;
+            // }
         }
         
         function showError(message) {
